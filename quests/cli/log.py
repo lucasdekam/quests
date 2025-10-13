@@ -1,5 +1,5 @@
 def logger(msg):
-    print(f"[QUESTS]: {msg}")
+    print(f"[QUESTS]: {msg}", flush=True)
 
 
 def format_time(seconds):
